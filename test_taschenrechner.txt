@@ -1,0 +1,10 @@
+Programmiere einen Taschenrechner. Die Eingabe von Rechenoperationen erfolgt über die Kommandozeile, der Taschenrechner sollte die Aneinanderreihung mehrere Operationen unterstützen.
+Außerdem sollten die folgenden Operationen verfügbar sein:
++,-,*,/,%,x^y
+
+Die Priorität der Operationen wird durch die Operationszeichen bestimmt, es werden keine Klammern unterstützt. Die Operanden werden mit einem Leerzeichen voneinander getrennt, also hat eine Eingabe das Format:
+
+[op1] [operation] [op2]
+
+Wobei vom Programm erwartet wird, das korrekte Ergebnis zurückzuliefern. Dieser Wert wird dann als erster Operand verwendet,falls kein anderer explizit eingegeben wird.
+Der Benutzer wird zwar immer die Leerzeichen setzen, allerdings kann er manchmal im Eifer des Gefechts die falsche Taste treffen, daher müssen die Operationen und Operanden geprüft werden.
